@@ -1,0 +1,323 @@
+.nav-link {
+    font-size:0.8rem!important;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.nav-icon {
+    font-size:0.85rem!important;
+}
+
+.nav-treeview {
+    padding-left:0!important;
+}
+
+.nav-treeview .nav-item {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+.nav-treeview .nav-link {
+    font-size:0.8rem!important;
+    padding-top: 2px!important;
+    padding-bottom: 2px!important;
+    padding-left:30px!important;
+}
+
+.nav-sidebar .nav-link>p>.right {
+    top:8px!important;
+}
+
+.nav-treeview .nav-icon {
+    font-size:0.8rem!important;
+}
+
+.brand-link {
+    font-size:1rem;
+    text-align:center;
+    font-weight:bold!important;
+}
+
+table.dataTable thead th {
+    border-bottom:1px;
+    background-color:#303233!important;
+    color:#FFFFFF;
+    font-weight:normal;
+}
+
+table.dataTable thead tr {
+    background-color:#e7e7e7!important;
+    font-weight:normal;
+}
+
+table.dataTable tbody td {
+    border-bottom:1px;
+    font-weight:normal;
+}
+
+table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc {
+    background-image:none!important;
+}
+
+table.dataTable>thead .sorting:before,
+table.dataTable>thead .sorting:after,
+table.dataTable>thead .sorting_asc:before,
+table.dataTable>thead .sorting_desc:before,
+table.dataTable>thead .sorting_asc:after,
+table.dataTable>thead .sorting_desc:after {
+    top: 0.2em!important;
+}
+
+
+body {
+    font-size:0.85rem!important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color:#303233;
+}
+
+.btn {
+    font-size:0.85rem!important;
+    line-height:1!important;
+    padding-left:7px!important;
+    padding-right:7px!important;
+    opacity:0.8;
+    border-radius:3px!important;
+}
+
+.card-header {
+    font-size:1.1rem!important;
+    color:#007bff!important;
+    opacity:0.8;
+}
+
+.pagination a, .pagination a:hover {
+    color:#7E857F!important;
+    line-height:0.8em!important;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff!important;
+    background-color: #007bff;
+    border-color:#007bff
+}
+
+
+.buttons-colvis, .buttons-copy {
+    display:none!important;
+}
+
+td select, td input {
+    width:100%;
+    height:25px;
+    line-height:1.3rem;
+    border: 1px solid #c6c6c6;
+    padding-left:5px;
+}
+
+td select option {
+    padding: .6em .8em .5em 1.4em;
+}
+
+.sidebar-dark-primary {
+    background-color:#202123!important;
+}
+
+.sidebar-dark-primary .nav-treeview>.nav-item>.nav-link.active, .sidebar-dark-primary .nav-treeview>.nav-item>.nav-link.active:hover {
+    background-color:#007bff!important;
+    color:#FFFFFF;
+}
+
+.main-footer {
+    padding-bottom:20px;
+}
+
+.dt-buttons {
+    padding-top:5px;
+    margin-left:30px;
+}
+.dt-buttons a, .dt-buttons select, .datatable .btn {
+    font-size:0.8rem!important;
+    padding: 4px!important;
+    padding-left:6px!important;
+    padding-right:6px!important;
+    height:auto!important;
+}
+.dataTables_length {
+    padding-top:4px;
+}
+
+.datatable th:last-child{ width: 150px; }
+
+.brand-text {
+    font-size:0.75rem!important;
+}
+
+.brand-image {
+    margin-left:10px!important;
+}
+
+.dropdown-item a {
+    font-size:0.8rem!important;
+    color:#007bff!important;
+}
+
+.ui-sortable .placeholder {
+    outline: 1px dashed #4183C4;
+    /*-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: -1px;*/
+}
+
+.ui-sortable .mjs-nestedSortable-error {
+    background: #fbe3e4;
+    border-color: transparent;
+}
+
+.ui-sortable ol {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+}
+
+ol.sortable, ol.sortable ol {
+    margin: 0 0 0 25px;
+    padding: 0;
+    list-style-type: none;
+}
+
+ol.sortable {
+    margin: 2em 0;
+    margin-top:0;
+}
+
+.sortable li {
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+.sortable li div  {
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 6px;
+    margin: 0;
+    cursor: move;
+    background-color: #f4f4f4;
+    color: #343a40;
+    border-color: #c6c6c6;
+}
+
+.sortable li.mjs-nestedSortable-branch div {
+    /*background-color: #00c0ef;*/
+    /*border-color: #00acd6;*/
+}
+
+.sortable li.mjs-nestedSortable-leaf div {
+    /*background-color: #00c0ef;*/
+    border: 1px solid #ddd;
+}
+
+li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
+    border-color: #999;
+    background: #fafafa;
+}
+
+.ui-sortable .disclose {
+    cursor: pointer;
+    width: 10px;
+    display: none;
+}
+
+.sortable li.mjs-nestedSortable-collapsed > ol {
+    display: none;
+}
+
+.sortable li.mjs-nestedSortable-branch > div > .disclose {
+    display: inline-block;
+}
+
+.sortable li.mjs-nestedSortable-collapsed > div > .disclose > span:before {
+    content: '+ ';
+}
+
+.sortable li.mjs-nestedSortable-expanded > div > .disclose > span:before {
+    content: '- ';
+}
+
+.ui-sortable h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.ui-sortable h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: .2em;
+    margin-bottom: 1.5em;
+}
+
+.ui-sortable h3 {
+    font-size: 1em;
+    margin: 1em 0 .3em;;
+}
+
+.ui-sortable p, .ui-sortable ol, .ui-sortable ul, .ui-sortable pre, .ui-sortable form {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.ui-sortable dl {
+    margin: 0;
+}
+
+.ui-sortable dd {
+    margin: 0;
+    padding: 0 0 0 1.5em;
+}
+
+.ui-sortable code {
+    background: #e5e5e5;
+}
+
+.ui-sortable input {
+    vertical-align: text-bottom;
+}
+
+.ui-sortable .notice {
+    color: #c33;
+}
+
+.btn150 {
+    min-width: 150px;
+}
+
+.btn130 {
+    min-width: 130px;
+}
+
+.btn100 {
+    min-width: 100px;
+}
+
+.btn-xs {
+    min-width: 50px;
+}
+
+.btn-info {
+    background-color:#28a745!important;
+    border-color:#28a745!important;
+}
+
+.main-footer {
+    padding:5px!important;
+    padding-left:10px!important;
+    padding-right:10px!important;
+}
+
+.main-footer * {
+    color:#343a40!important;
+}

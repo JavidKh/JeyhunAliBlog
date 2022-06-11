@@ -1,0 +1,326 @@
+@import "app.css";
+
+.ck-editor__editable,
+textarea {
+    min-height: 150px;
+}
+
+.datatable {
+    width: 100% !important;
+}
+
+table.dataTable tbody td.select-checkbox::before,
+table.dataTable tbody td.select-checkbox::after,
+table.dataTable tbody th.select-checkbox::before,
+table.dataTable tbody th.select-checkbox::after {
+    top: 50%;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dt-buttons {
+    margin-bottom: 0.333em;
+}
+
+.dt-buttons .btn {
+    margin-left: 0.333em;
+    border-radius: 0;
+}
+
+.table.datatable {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+table.dataTable thead th {
+    border-bottom: 2px solid #dee2e6;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 1px solid #dee2e6;
+}
+
+
+.menuseparator {
+    border-bottom: 1px solid #3a434b;
+    line-height: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.select2 {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background-image: none;
+}
+
+.btn-group-xs > .btn,
+.btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.searchable-title {
+    font-weight: bold;
+}
+
+.select2-container--open {
+    z-index: 9999;
+}
+
+.searchable-fields {
+    padding-left: 5px;
+}
+
+.searchable-link {
+    padding: 0 5px 0 5px;
+}
+
+.searchable-link:hover {
+    cursor: pointer;
+    background: #eaeaea;
+}
+
+.select2-results__option {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.form-group .required::after {
+    content: " *";
+    color: red;
+}
+
+.form-check.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+
+.dataTables_length label select {
+    width: 65px !important;
+}
+
+div.dt-button-collection {
+    padding: 0;
+}
+
+.buttons-columnVisibility {
+    display: block;
+}
+
+.buttons-columnVisibility.active {
+    background-color: rgba(128, 128, 128, 0.1);
+    font-weight: bolder;
+}
+
+/*** Sortable Select ****/
+.dashboard-fields-header {
+    background-color: #009cde;
+    border-color: #009cde;
+    color: #ffffff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+}
+
+.ms-container .ms-list {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border: 0px !important;
+}
+
+.ms-container .ms-selectable li.ms-hover,
+.ms-container .ms-selection li.ms-hover,
+.ms-container .ms-selection li.ui-sortable-helper {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    background-color: #08c;
+}
+
+.well {
+    border: 0px;
+}
+
+.panel {
+    border: 0px;
+}
+
+.filterOption {
+    position: relative;
+    transform: translateY(30%);
+    text-align: center;
+}
+
+.el_selectedFilterOptions .row {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.el_selectedSortOptions .row {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+/* Sortable items */
+
+.sortable-list {
+    list-style: none;
+    margin: 0;
+    min-height: 20px;
+    padding: 0px;
+}
+
+.sortable-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: block;
+    margin-bottom: -1px;
+    padding: 10px;
+    cursor: move;
+}
+
+.admin-image-outer img {
+    width: 100% !important;
+}
+
+.admin-imagelist-outer {
+    width: 100px !important;
+}
+
+/* Item placeholder (visual helper) */
+
+.placeholder {
+    border: 1px dashed #666;
+    height: 45px;
+    margin-bottom: 5px;
+}
+
+.fixed-panel {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.alert {
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+#in_available_fields {
+    height: 100px;
+    overflow: scroll;
+}
+
+#in_primary_fields {
+    height: 100px;
+    overflow: scroll;
+}
+
+#in_primary_select {
+    display: none;
+}
+
+.has_fields {
+    height: 300px !important;
+    border: 1px solid #AAA;
+}
+
+div.dataTables_scrollBody > table > tbody th:last-child,
+div.dataTables_scrollBody > table > tbody td:last-child {
+    text-align: right !important;
+}
+
+div.dataTables_scrollBody > table > tbody td.dataTables_empty {
+    text-align: center !important;
+    color: #909093 !important;
+}
+
+.main-footer,
+.pagination a, .pagination a:hover,
+.dataTables_info,
+.dataTables_filter, .dataTables_filter *,
+.dataTables_length, .dataTables_length * {
+    color: #909093 !important;
+    font-size: 13px;
+}
+
+.semitransparent {
+    opacity: 0.7;
+}
+
+.semitransparent:hover {
+    opacity: 1;
+}
+
+table.dataTable thead td {
+    border-bottom: 1px solid #FFF !important;
+}
+
+.w400 {
+    width: 400px;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.w200 {
+    width: 200px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.w80 {
+    width: 80px;
+}
+
+.w60 {
+    width: 60px;
+}
+
+#calendar h2, #caltitle {
+    font-size: 16px !important;
+    color: #007bff;
+    opacity: 0.8;
+}
+
+.label-primary {
+    background-color: #337ab7;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.hide {
+    display:none;
+}
+
+.customTitle {
+    padding-left:5px;
+    display:flex;
+}
+.customTitle input {
+    font-size:12px!important;
+}
+.customTitle input.bold {
+    font-weight:bold;
+}
